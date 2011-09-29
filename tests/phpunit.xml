@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit verbose="true" colors="true">
+    
+    <testsuite name="Int function tests">
+        <directory>./</directory>
+    </testsuite>
+    
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../</directory>
+        </whitelist>
+    </filter>
+    
+</phpunit>
