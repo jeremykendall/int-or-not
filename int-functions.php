@@ -19,7 +19,7 @@ function is_really_int(&$var)
 
 /**
  * Tests if $var can be accurately represented as an integer.
- * Note that boolean values return false, mimicking the behavior of is_int()
+ * Note that boolean values return false, just like is_int()
  * 
  * @param mixed $var Value to test
  * @return boolean 
