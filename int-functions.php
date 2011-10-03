@@ -26,9 +26,5 @@ function is_really_int(&$var)
  */
 function valueCanBeInt($var)
 {
-    if (is_numeric($var) && $var == (int) $var) {
-        return true;
-    }
-
-    return false;
+    return is_numeric($var) && $var == (int) $var;
 }
